@@ -1,0 +1,96 @@
+p.teaser {
+    text-indent: 30px; 
+    }
+.panel-default>.panel-heading.panel-post-detail {
+    background-color: #ffffff;
+    border-color: #fff;
+}    
+.post-title {
+    font-weight: bold;
+    width: 100%;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.post-info {
+	width: 100%;
+    display: table;
+}
+.post-created {
+	width: 50%;
+    display: table-cell;
+    font-size: 12px;
+    font-style: italic;
+}
+.post-like {
+	width: 40%;
+    display: table-cell;
+    text-align: right;
+    font-size: 16px;
+    color: #6064ff;
+}
+.post-action {
+	width: 100%;
+    display: block;
+    margin-top: 10px;
+}
+.article-like-up,
+.article-like-down {
+	cursor: pointer;
+}
+.article-like-up.active,
+.article-like-down.active {
+	cursor: default;
+	color: blue;
+}
+.article-like-up.disabled,
+.article-like-down.disabled {
+	cursor: default;
+	color: #dfe0ff;
+}
+
+/*Comment*/
+#comments_list {
+
+}
+#comments_list li {
+	list-style: none;
+	display: inline-block;
+    width: 100%;
+    margin-bottom: 15px;
+}
+.comment-info {
+	width: 100%;
+    display: table;
+}
+.comment-info .comment-author {
+	width: 60%;
+    display: table-cell;
+    font-weight: bold;
+}
+.comment-info .comment-time {
+	width: 40%;
+    display: table-cell;
+    text-align: right;
+    font-size: 11px;
+    color: gray;
+    font-style: italic;
+}
+
+.post-block {
+	margin-bottom: 20px;
+	width: 100%;
+}
+.post-block .post-title {
+	font-weight: bold;
+    width: 100%;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.post-block .post-more {
+	text-align: right;
+    font-size: 12px;
+    font-style: italic;
+}
+.paginator-list {
+	text-align: center;
+}
